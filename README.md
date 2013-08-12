@@ -5,7 +5,7 @@
 Add this line to your application's Gemfile:
 
     gem 'capistrano', version: '~> 3.0.0'
-    gem 'capistrano-chruby', github: "kirs/chruby"
+    gem 'capistrano-chruby', github: "capistrano/chruby"
 
 And then execute:
 
