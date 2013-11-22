@@ -18,9 +18,9 @@ And then execute:
 
     require 'capistrano/chruby'
 
-    set :chruby_ruby, '2.0.0-p247'
+    set :chruby_ruby, 'ruby-2.0.0-p247'
 
-If your `chruby-exec` is located in some custom path, you can use `chruby_exec` to set it.
+If your `chruby-exec` is located in some custom path, you can tweak `chruby_exec` option to set it.
 
 ## Contributing
 
