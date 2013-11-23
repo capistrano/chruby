@@ -9,15 +9,15 @@ Add this line to your application's Gemfile:
 
 And then execute:
 
-    $ bundle
-    $ cap install
+    $ bundle install
 
 ## Usage
 
     # Capfile
-
     require 'capistrano/chruby'
 
+
+    # config/deploy.rb
     set :chruby_ruby, 'ruby-2.0.0-p247'
 
 If your `chruby-exec` is located in some custom path, you can tweak `chruby_exec` option to set it.
