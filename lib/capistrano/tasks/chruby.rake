@@ -10,6 +10,8 @@ namespace :chruby do
 
   task :map_bins do
     chruby_prefix = "#{fetch(:chruby_exec)} #{fetch(:chruby_ruby)} --"
+    
+    SSHKit.config.command_map[:chruby_prefix] = chruby_prefix
 
     fetch(:chruby_map_bins).each do |command|
       SSHKit.config.command_map.prefix[command.to_sym].unshift(chruby_prefix)
