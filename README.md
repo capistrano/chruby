@@ -4,8 +4,8 @@
 
 Add this line to your application's Gemfile:
 
-    gem 'capistrano', '~> 3.1'
-    gem 'capistrano-chruby', '~> 0.1.1'
+    gem 'capistrano', '~> 3.2'
+    gem 'capistrano-chruby'
 
 And then execute:
 
