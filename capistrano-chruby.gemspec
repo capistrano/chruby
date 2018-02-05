@@ -10,6 +10,7 @@ Gem::Specification.new do |gem|
   gem.description   = %q{chruby integration for Capistrano}
   gem.summary       = %q{chruby integration for Capistrano}
   gem.homepage      = "https://github.com/kirs/chruby"
+  gem.license       = "MIT"
 
   gem.files         = `git ls-files`.split($/)
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
